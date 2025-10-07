@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:netflix_clone/netflix_intro_screen.dart';
+import 'package:netflix_clone/homescreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +17,13 @@ class _MyAppState extends State<MyApp> {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Scaffold());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const NetflixIntroScreen(),
+        '/home': (context) => HomeScreen(),
+      },
+    );
   }
 }
