@@ -1,0 +1,249 @@
+name: netflix_clone
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/videos/open_video1.mp4
+    - assets/videos/open_video2.mp4
+    
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+        - asset: assets/fonts/Poppins-ThinItalic.ttf
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+        - asset: assets/fonts/Poppins-ExtraLightItalic.ttf
+        - asset: assets/fonts/Poppins-Light.ttf
+        - asset: assets/fonts/Poppins-LightItalic.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Italic.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+        - asset: assets/fonts/Poppins-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Poppins-Black.ttf
+        - asset: assets/fonts/Poppins-BlackItalic.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Italic-VariableFont_wdth,wght.ttf
+        - asset: assets/fonts/Roboto-VariableFont_wdth,wght.ttf
+
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik80sFade-Regular.ttf
+        - asset: assets/fonts/RubikDistressed-Regular.ttf
+        - asset: assets/fonts/RubikGlitch-Regular.ttf
+        - asset: assets/fonts/RubikIso-Regular.ttf
+        - asset: assets/fonts/RubikMaps-Regular.ttf
+        - asset: assets/fonts/RubikMarkerHatch-Regular.ttf
+        - asset: assets/fonts/RubikMicrobe-Regular.ttf
+        - asset: assets/fonts/RubikMoonrocks-Regular.ttf
+        - asset: assets/fonts/RubikPuddles-Regular.ttf
+
+    - family: Sacramento
+      fonts:
+        - asset: assets/fonts/Sacramento-Regular.ttf
+
+    - family: SpecialElite
+      fonts:
+        - asset: assets/fonts/SpecialElite-Regular.ttf
+
+    - family: Tangerine
+      fonts:
+        - asset: assets/fonts/Tangerine-Regular.ttf
+        - asset: assets/fonts/Tangerine-Bold.ttf
+
+    - family: AlmendraDisplay
+      fonts:
+        - asset: assets/fonts/AlmendraDisplay-Regular.ttf
+
+    - family: AlumniSansInlineOne
+      fonts:
+        - asset: assets/fonts/AlumniSansInlineOne-Regular.ttf
+        - asset: assets/fonts/AlumniSansInlineOne-Italic.ttf
+
+    - family: Barriecito
+      fonts:
+        - asset: assets/fonts/Barriecito-Regular.ttf
+
+    - family: Barrio
+      fonts:
+        - asset: assets/fonts/Barrio-Regular.ttf
+
+    - family: Birthstone
+      fonts:
+        - asset: assets/fonts/Birthstone-Regular.ttf
+
+    - family: BitcountGridDouble
+      fonts:
+        - asset: assets/fonts/BitcountGridDouble-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf
+
+    - family: BonheurRoyale
+      fonts:
+        - asset: assets/fonts/BonheurRoyale-Regular.ttf
+
+    - family: BungeeTint
+      fonts:
+        - asset: assets/fonts/BungeeTint-Regular.ttf
+
+    - family: Carattere
+      fonts:
+        - asset: assets/fonts/Carattere-Regular.ttf
+
+    - family: Condiment
+      fonts:
+        - asset: assets/fonts/Condiment-Regular.ttf
+
+    - family: Corinthia
+      fonts:
+        - asset: assets/fonts/Corinthia-Regular.ttf
+        - asset: assets/fonts/Corinthia-Bold.ttf
+
+    - family: DancingScript
+      fonts:
+        - asset: assets/fonts/DancingScript-VariableFont_wght.ttf
+
+    - family: Explora
+      fonts:
+        - asset: assets/fonts/Explora-Regular.ttf
+
+    - family: Felipa
+      fonts:
+        - asset: assets/fonts/Felipa-Regular.ttf
+
+    - family: FontdinerSwanky
+      fonts:
+        - asset: assets/fonts/FontdinerSwanky-Regular.ttf
+
+    - family: HanaleiFill
+      fonts:
+        - asset: assets/fonts/HanaleiFill-Regular.ttf
+
+    - family: IrishGrover
+      fonts:
+        - asset: assets/fonts/IrishGrover-Regular.ttf
+
+    - family: IslandMoments
+      fonts:
+        - asset: assets/fonts/IslandMoments-Regular.ttf
+
+    - family: Italianno
+      fonts:
+        - asset: assets/fonts/Italianno-Regular.ttf
+
+    - family: JollyLodger
+      fonts:
+        - asset: assets/fonts/JollyLodger-Regular.ttf
+
+    - family: JotiOne
+      fonts:
+        - asset: assets/fonts/JotiOne-Regular.ttf
+
+    - family: KalniaGlaze
+      fonts:
+        - asset: assets/fonts/KalniaGlaze-VariableFont_wdth,wght.ttf
+
+    - family: Knewave
+      fonts:
+        - asset: assets/fonts/Knewave-Regular.ttf
+
+    - family: LavishlyYours
+      fonts:
+        - asset: assets/fonts/LavishlyYours-Regular.ttf
+
+    - family: LibertinusMono
+      fonts:
+        - asset: assets/fonts/LibertinusMono-Regular.ttf
+
+    - family: MeaCulpa
+      fonts:
+        - asset: assets/fonts/MeaCulpa-Regular.ttf
+
+    - family: MeowScript
+      fonts:
+        - asset: assets/fonts/MeowScript-Regular.ttf
+
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Italic-VariableFont_wght.ttf
+        - asset: assets/fonts/Montserrat-VariableFont_wght.ttf
+
+    - family: MoonDance
+      fonts:
+        - asset: assets/fonts/MoonDance-Regular.ttf
+
+    - family: Nabla
+      fonts:
+        - asset: assets/fonts/Nabla-Regular-VariableFont_EDPT,EHLT.ttf
+
+    - family: Newsreader
+      fonts:
+        - asset: assets/fonts/Newsreader-VariableFont_opsz,wght.ttf
+        - asset: assets/fonts/Newsreader-Italic-VariableFont_opsz,wght.ttf
+
+    - family: Nosifer
+      fonts:
+        - asset: assets/fonts/Nosifer-Regular.ttf
+
+    - family: PoiretOne
+      fonts:
+        - asset: assets/fonts/PoiretOne-Regular.ttf
