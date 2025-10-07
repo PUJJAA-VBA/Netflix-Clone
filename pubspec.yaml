@@ -57,8 +57,7 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/videos/open_video1.mp4
-    - assets/videos/open_video2.mp4
+    - assets/videos/open_video.mp4
     
   fonts:
     - family: Poppins
